@@ -1,48 +1,46 @@
-# 05_Notebooks
+# 05_Cuaderno
 
-Esta carpeta contiene el notebook principal del proyecto.
+Notebook principal del proyecto.
 
-## Notebook principal
+## Archivo principal
 
-**modelo_forma1_COMPLETO.ipynb**
+**`modelo_forma1_COMPLETO.ipynb`**
 
-Desarrollo completo del modelo predictivo siguiendo metodología CRISP-DM.
+Desarrollo completo siguiendo metodología CRISP-DM.
 
-## Estructura
+## Estructura del notebook
 
-1. Comprensión del problema
-2. Carga y exploración de datos
-3. Selección de variables
-4. Análisis Exploratorio de Datos (EDA)
-5. Preprocesamiento
-6. Modelado (6 algoritmos)
-7. Comparación de modelos
-8. Análisis del mejor modelo
-9. Aplicación institucional UCN
-10. Conclusiones
-11. Exportación
+| Sección | Descripción |
+|---------|-------------|
+| 1. Comprensión | Definición del problema |
+| 2. Datos | Carga y exploración |
+| 3. Variables | Selección de predictores |
+| 4. EDA | Análisis exploratorio |
+| 5. Preprocesamiento | Pipeline scikit-learn |
+| 6. Modelado | 6 algoritmos evaluados |
+| 7. Comparación | Métricas y selección |
+| 8. Mejor modelo | Análisis XGBoost |
+| 9. UCN | Aplicación institucional |
+| 10. Conclusiones | Hallazgos principales |
+| 11. Exportación | Guardado de modelos |
 
-## Requisitos
-
-Ver archivo `requirements.txt` en esta carpeta.
-
-## Ejecución
-
+## Instalación
 ```bash
-# Instalar dependencias
 pip install -r requirements.txt
-
-# Abrir notebook
 jupyter notebook modelo_forma1_COMPLETO.ipynb
 ```
 
-## Tiempo de ejecución
+## Tiempo estimado
 
 - **Total:** ~2 horas
-- **Modelado:** ~60-90 minutos
+- **Modelado:** ~90 minutos
 - **Visualizaciones:** ~10 minutos
 
----
+## Outputs generados
 
-**Autor:** Teresa Luna Ramírez  
-**Proyecto:** TFM - Predicción Saber Pro
+- 7 figuras PNG → `04_Figuras/`
+- 3 modelos .pkl → `02_Modelado/`
+- 3 resultados .csv → `02_Modelado/`
+
+---
+**Autora:** Teresa Luna Ramírez | **UNIR 2026**
