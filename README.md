@@ -75,9 +75,9 @@ jupyter notebook modelo_forma1_COMPLETO.ipynb
 
 ## Privacidad y ética
 
-- ✅ Datos públicos y anonimizados (ICFES)
-- ✅ Cumple RGPD y Ley 1581/2012 Colombia
-- ✅ Sin identificación individual
+- Datos públicos y anonimizados (ICFES)
+- Cumple RGPD y Ley 1581/2012 Colombia
+- Sin identificación individual
 
 ---
 
